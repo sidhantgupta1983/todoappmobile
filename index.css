@@ -1,0 +1,715 @@
+body{
+    overflow: hidden;
+}
+
+.parent1{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+.heading{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    font-size: 55px;
+    font-weight:bold;
+}
+
+.triptoparis2{
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-left: 40px;
+}
+
+.format{
+    font-family: Heebo, sans-serif;
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 118px;
+    left: 440px; 
+    font-size: 55px;
+    font-weight: 0px;
+    opacity: 0.5;
+    font-weight: thin;
+}
+
+.btn{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    top: 145px;
+    left: 815px;
+    color:orangered;
+}
+
+.newList{
+    color: gray;
+}
+
+.text{
+    font-family: Heebo, sans-serif;
+    width: 150px;
+    height:75px;
+    position: absolute;
+    top: 137px;
+    left: 850px;
+    font-size: 35px;
+    opacity: 0.8;
+}
+
+.box1{
+    width: 175px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    position: absolute;
+    top: 225px;
+    left: 300px;
+    box-shadow: 2px 2px 5px #222;
+    float: right;
+}
+
+.triptoparis1{
+    margin-left:30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid gray;
+}
+
+.mytodolist{
+    margin-left:25px;
+    border-bottom: 1px solid gray;
+    color:orangered;
+    padding-bottom: 8px;
+
+}
+
+.completedtask{
+    margin-left:30px;
+
+}
+
+.completedtask1{
+    margin-left:35px;
+}
+input[type=checkbox] {
+    margin-left: 8px;
+    margin-right: 6px;
+    font-size: 54px;
+}
+
+.box2{
+    width: 175px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 5px #222;
+    position: absolute;
+    top: 225px;
+    left: 555px;
+}
+
+.box3{
+    width: 175px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 5px rgb(10, 10, 10);
+    position: absolute;
+    top: 225px;
+    left: 810px;
+}
+
+.parent2{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.paris{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    opacity: 0.5;
+}
+
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+a{
+    text-decoration:none;
+    color: orangered;
+}
+
+del{
+    color:orangered;
+}
+
+.btn2{
+    position: absolute;
+    top: 105px;
+    left: 480px;
+    color: orangered;
+}
+
+.back{
+    position: absolute;
+    top: 101px;
+    left: 520px;
+    font-size: 36px;
+}
+
+.box6{
+    width: 275px;
+    height: 350px;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 1px 1px 5px rgb(134, 131, 131);
+    position: absolute;
+    top: 150px;
+    left: 405px;
+}
+
+.icon{
+    position:absolute;
+    top: 490px;
+    left: 635px;
+    color: orangered;
+}
+
+.textarea{
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.task{
+    float:left;
+    margin: -30px 0px;
+    padding-left: -100px;
+}
+
+.label{
+    float:right;
+    /* margin: 5px 0px; */
+}
+
+.box4{
+    opacity:0;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 5px #222;
+    position: absolute;
+    top: 250px;
+    left: 475px;
+}
+
+
+.box5{
+    opacity:0;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 5px #222;
+    position: absolute;
+    top: 250px;
+    left: 475px;
+}
+
+@media screen and (min-width:361px) and (max-width:768px) {
+    .parent1{
+        width: 500px;
+        height:100%;
+        position: relative;
+    }
+
+    .text{
+        opacity: 0;
+    }
+
+    .completedtask{
+        opacity: 0;
+    }
+
+    .completedtask1{
+        opacity: 1;
+    }
+
+    .checkbox{
+        opacity: 0;
+    }
+
+    .triptoparis2{
+        padding-left: 0px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid gray;
+        margin-left: 40px;
+    }
+
+    .heading{
+        width:100px;
+        height:100px;
+        position: absolute;
+        top: 50px;
+        left: 355px;
+        font-size: 55px;
+        font-weight:bold;
+        font-family: sans-serif;
+    }
+
+    .format{
+        font-family: Heebo, sans-serif;
+        width:100px;
+        height:100px;
+        position: absolute;
+        top: 42px;
+        left: 515px; 
+        font-size: 55px;
+        font-weight: 0px;
+        opacity: 0.5;
+        font-weight: thin;
+    }
+
+    .btn{
+        width: 50px;
+        height:50px;
+        position: absolute;
+        top: 65px;
+        left: 675px;
+        color:orangered;
+    }
+
+    .box1{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 120px;
+        left: 355px;
+        padding-bottom: 35px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+    }
+
+    .triptoparis1{
+        padding-bottom: 60px;
+        margin-bottom:40px;
+        margin-left:30px;
+        border-bottom: none;
+        font-size: 28px;
+        font-family: Heebo;
+        font-weight: bold;
+       color: gray;
+    }
+
+    .checkbox{
+        opacity: 0;
+    }
+
+    .remove{
+        opacity: 0;
+    }
+
+    .box2{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 230px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .mytodolist{
+        font-family: Heebo;
+        font-size: 28px;
+        padding-left: 10px;
+        color:gray;
+        font-weight: bold;  
+        border-bottom: none;
+        padding-bottom: 30px;
+    }
+    
+    .box3{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 343px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .box4{
+        opacity: 1;
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 455px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .box5{
+        opacity: 1;
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 565px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+    
+    .parent2{
+        width: 500px;
+        height: 100%;
+        position: relative;
+    }
+
+    .paris{
+        width: 100%;
+        height: 100px;
+        font-size: 40px;
+        position: absolute;
+        top: 58px;
+        left: 505px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration:none;
+        color: orangered;
+    }
+
+    .btn2{
+        position: absolute;
+        top: 72px;
+        left: 470px;
+        color: orangered;
+    }
+
+    .back{
+        position: absolute;
+        top: 140px;
+        left: 610px;
+        font-size: 36px;
+    }
+
+    .box6{
+        width: 275px;
+        height: 350px;
+        border: 1px solid red;
+        border-radius: 10px;
+        padding-top: 35px;
+        
+        box-shadow: 1px 1px 5px rgb(134, 131, 131);
+        position: absolute;
+        top: 150px;
+        left: 475px;
+    }
+
+    .icon{
+        position:absolute;
+        top: 490px;
+        left: 700px;
+        color: orangered;
+    }
+
+    .triptoparis1{
+        padding-left: 0px;
+        padding-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .task{
+        margin-left: 20px
+    }
+
+    span:after,
+    span:before{
+        content:"";
+        text-decoration:line-through;
+    }
+
+    .span{
+        opacity: 1;
+        position: absolute;
+        top: 25px;
+    }
+
+    .paris{
+        color:black;
+        opacity: 1;
+    }
+
+    .back{
+        opacity: 0;
+    }
+}   
+
+
+@media screen and (min-width:0px) and (max-width:360px) {
+    .parent1{
+        width: 500px;
+        height:100%;
+        position: relative;
+    }
+
+    .text{
+        opacity: 0;
+    }
+
+    .completedtask{
+        opacity: 0;
+    }
+
+    .completedtask1{
+        opacity: 1;
+    }
+
+    .checkbox{
+        opacity: 0;
+    }
+
+    .heading{
+        width:100px;
+        height:100px;
+        position: absolute;
+        top: 50px;
+        left: 355px;
+        font-size: 55px;
+        font-weight:bold;
+        font-family: sans-serif;
+    }
+
+    .format{
+        font-family: Heebo, sans-serif;
+        width:100px;
+        height:100px;
+        position: absolute;
+        top: 42px;
+        left: 515px; 
+        font-size: 55px;
+        font-weight: 0px;
+        opacity: 0.5;
+        font-weight: thin;
+    }
+
+    .btn{
+        width: 50px;
+        height:50px;
+        position: absolute;
+        top: 65px;
+        left: 675px;
+        color:orangered;
+    }
+
+    .box1{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 120px;
+        left: 355px;
+        padding-bottom: 35px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+    }
+
+    .triptoparis1{
+        padding-bottom: 60px;
+        margin-bottom:40px;
+        margin-left:30px;
+        border-bottom: none;
+        font-size: 28px;
+        font-family: Heebo;
+        font-weight: bold;
+       color: gray;
+    }
+
+    .checkbox{
+        opacity: 0;
+    }
+
+    .remove{
+        opacity: 0;
+    }
+
+    .box2{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 230px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .mytodolist{
+        font-family: Heebo;
+        font-size: 28px;
+        padding-left: 10px;
+        color:gray;
+        font-weight: bold;  
+        border-bottom: none;
+        padding-bottom: 30px;
+    }
+    
+    .box3{
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 343px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .box4{
+        opacity: 1;
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 455px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+
+    .box5{
+        opacity: 1;
+        width: 345px;
+        height: 10px;
+        border: 1px solid pink;
+        border-radius: 10px;
+        position: absolute;
+        top: 565px;
+        left: 355px;
+        box-shadow: 1px 1px 3px rgb(134, 131, 131);
+        padding-bottom: 35px;
+    }
+    
+    .parent2{
+        width: 500px;
+        height: 100%;
+        position: relative;
+    }
+
+    .paris{
+        width: 100%;
+        height: 100px;
+        font-size: 40px;
+        position: absolute;
+        top: 58px;
+        left: 505px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration:none;
+        color: orangered;
+    }
+
+    .btn2{
+        position: absolute;
+        top: 72px;
+        left: 470px;
+        color: orangered;
+    }
+
+    .back{
+        position: absolute;
+        top: 140px;
+        left: 610px;
+        font-size: 36px;
+    }
+
+    .box6{
+        width: 275px;
+        height: 350px;
+        border: 1px solid red;
+        border-radius: 10px;
+        padding-top: 35px;
+        
+        box-shadow: 1px 1px 5px rgb(134, 131, 131);
+        position: absolute;
+        top: 150px;
+        left: 475px;
+    }
+
+    .icon{
+        position:absolute;
+        top: 490px;
+        left: 700px;
+        color: orangered;
+    }
+
+    .triptoparis1{
+        padding-left: 0px;
+        padding-bottom: 10px;
+        margin-left: 40px;
+    }
+
+    .task{
+        margin-left: 20px
+    }
+
+    span:after,
+    span:before{
+        content:"";
+        text-decoration:line-through;
+    }
+
+    .span{
+        opacity: 1;
+        position: absolute;
+        top: 25px;
+    }
+
+    .paris{
+        color:black;
+        opacity: 1;
+    }
+    
+    .back{
+        opacity: 0;
+    }
+}   
+   
